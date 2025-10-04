@@ -8,7 +8,7 @@
     <title>🚀 Cosmic Portfolio</title>
     
     <link rel="stylesheet" href="style.css">
-    
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
@@ -18,10 +18,10 @@
         <h1>My Cosmic Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#media">Media Deck</a></li>
-                <li><a href="#skills">Skill Table</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" class="font-bold">About Me</a></li>
+                <li><a href="#media" class="font-bold">Media Deck</a></li>
+                <li><a href="#skills" class="font-bold">Skill Table</a></li>
+                <li><a href="#contact" class="font-bold">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -34,7 +34,7 @@
                 <p>
                     Welcome to my little corner of the web! I am a <b>trebor</b> with a passion for building beautiful and functional websites. This page is a showcase of my skills in <mark>HTML & CSS</mark>, inspired by the vastness of space. My journey into HTML began in <sup>2022</sup>, and I've just started exploring again ever since. I believe in clean code and <i>pixel-perfect design</i>. <del>Old methods</del> are replaced by modern techniques.
                     <br><br>
-                    This is all the <span class="highlight">creativity</span> I had in me :( !
+                    This is all the <span class="hover:bg-sky-800">creativity</span> I had in me :( !
                 </p>
             </div>
         </section>
@@ -47,7 +47,7 @@
                 <div class="media-item">
                     <h3>Rocket Launch Sequence</h3>
                     <video controls muted autoplay loop width="400">
-                        <source src="https://assets.mixkit.co/videos/preview/mixkit-rocket-taking-off-in-the-cosmic-space-39839-large.mp4" type="video/mp4">
+                        <source src="rocket-launch.mp4" title="rocket launching" type="video/mp4">
                         Your browser does not support the video tag. LMAO Internet Explorer user!
                     </video>
                 </div>
@@ -55,7 +55,7 @@
                 <div class="media-item">
                     <h3>Sounds of Space</h3>
                     <audio controls>
-                        <source src="https://cdn.pixabay.com/download/audio/2022/10/18/audio_174fad1376.mp3" type="audio/mpeg">
+                        <source src="space-chords.mp3" title="space sounds" type="audio/mp3">
                         Your browser does not support the audio tag. LMAO Internet Explorer user!
                     </audio>
                 </div>
@@ -121,7 +121,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="text-center">
         <p>&copy; 2025 trebor's Cosmic Portfolio. A tribute to <a href="https://www.youtube.com/@BroCodez" target="_blank">BroCode</a>.</p>
     </footer>
 
