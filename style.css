@@ -44,7 +44,6 @@ nav ul {
 nav a {
     color: #f0f0f0;
     text-decoration: none;
-    font-weight: bold;
     font-size: 1.1em;
     padding: 5px 10px;
     border-radius: 5px;
@@ -96,7 +95,6 @@ section h2 {
 }
 
 .highlight {
-    color: cyan;
     font-weight: bold;
 }
 
@@ -174,7 +172,6 @@ button:hover {
 }
 
 footer {
-    text-align: center;
     padding: 20px;
     margin-top: 20px;
     background-color: rgba(12, 10, 31, 0.8);
